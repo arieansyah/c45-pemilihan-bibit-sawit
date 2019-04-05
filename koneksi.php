@@ -4,9 +4,9 @@
  */
 return array(
     'host' => "localhost",
-    'username' => "root",
-    'password' => "root",
-    'dbname' => "koperasi_c45",
+    'username' => "?",
+    'password' => "?",
+    'dbname' => "?",
     // 'port' => "", // sementara menggunakan port bawaan
 );
 

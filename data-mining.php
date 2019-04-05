@@ -29,7 +29,7 @@ if (isset($_GET['pesan_success'])) {
 }
 
 if (!isset($_POST['proses_mining'])) {//tidak muncul jika diklik proses mining
-    $sql = "SELECT * FROM data_latih_fajar";
+    $sql = "SELECT * FROM data_latih";
     $query = $db_object->db_query($sql);
     $jumlah = $db_object->db_num_rows($query);
     ?>
